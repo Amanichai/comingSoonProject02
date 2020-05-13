@@ -23,7 +23,7 @@ body {
 .header {
     height: 100vh;
     background-image: url(../images/bg-pattern-desktop.svg);
-    background-size: cover;
+    background-size: contain;
 }
 
 .container {
@@ -39,7 +39,7 @@ body {
     /* margin: 20px; */
     padding: 20px;
     height: 95vh;
-    color: orangered;
+    /* color: orangered; */
 }
 
 .right {
@@ -55,5 +55,34 @@ body {
 
 .logo img {
     margin-left: 150px;
-    margin-top: 7%;
+    margin-top: 5%;
+}
+
+.main {
+    margin-left: 150px;
+    margin-top: 10%;
+    text-transform: uppercase;
+    /* width: 45%; */
+}
+
+.bold {
+    font-size: 80px;
+    font-weight: 600;
+    width: 50%;
+}
+
+.fancy {
+    font-size: 70px;
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+p {
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 45%;
+    color: hsl(0, 36%, 70%);
+    line-height: 30px;
+    /* letter-spacing: 1px; */
 }
