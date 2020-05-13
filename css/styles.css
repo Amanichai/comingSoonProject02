@@ -35,7 +35,7 @@ body {
 }
 
 .boxes {
-    border: 1px black solid;
+    /* border: 1px black solid; */
     /* margin: 20px; */
     padding: 20px;
     height: 95vh;
@@ -85,4 +85,33 @@ p {
     color: hsl(0, 36%, 70%);
     line-height: 30px;
     /* letter-spacing: 1px; */
+}
+
+.email_box {
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 500px;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+}
+
+.gradient_button {
+    background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    padding: 15px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+    /* position: absolute; */
+
+
 }
