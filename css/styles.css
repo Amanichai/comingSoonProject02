@@ -17,10 +17,43 @@ Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
 }
 
 .header {
     height: 100vh;
     background-image: url(../images/bg-pattern-desktop.svg);
     background-size: cover;
+}
+
+.container {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boxes {
+    border: 1px black solid;
+    /* margin: 20px; */
+    padding: 20px;
+    height: 95vh;
+    color: orangered;
+}
+
+.right {
+    width: 35%;
+    background-image: url(../images/hero-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.left {
+    flex: 1;
+}
+
+.logo img {
+    margin-left: 150px;
+    margin-top: 7%;
 }
