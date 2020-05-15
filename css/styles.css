@@ -22,7 +22,7 @@ body {
 
 .header {
     height: 100vh;
-    background-image: url(../images/bg-pattern-desktop.svg);
+    background-image:  url(../images/bg-pattern-desktop.svg);
     background-size: contain;
 }
 
@@ -32,6 +32,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.filter {
+    background-image: linear-gradient(to right bottom, hsla(0, 0%, 100%, 0.685), hsla(0, 100%, 98%, 0.603) );
 }
 
 .boxes {
